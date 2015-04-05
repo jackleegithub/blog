@@ -156,7 +156,8 @@ git commit -m "Add a new file -- readme.txt"
 </pre>                        
                         </dd>
                     </dl>
-                    <p><strong>Theora</strong>是一个免权利金、开放格式的有损视频压缩技术，由Xiph.Org基金会开发，该基金会还开发了著名的声音编码技术Vorbis，以及多媒体容器文件格式Ogg。libtheora则是Xiph.Org基金会针对Theora格式的实现。Theora是由On2 Technologies公司专属的VP3编码器，经过开放源代码后派生而来，目标是达成比MPEG-4 Part 2更好的编码效率。</p>
+                    <p>版本库（Repository）有很多重要的概念，其中最重要的是<b>暂存区（stage）</b>。还有第一个<b>分支（branch）</b><code>master</code>和指向这个分支的<b>指针（head）</b>。</p>
+                    <img src="../images/repository.jpg" alt="版本库" />
                     <p><strong>VP8</strong>是一个开放的视频压缩格式，最早由On2 Technologies开发，随后由Google发布。同时Google也发布了VP8编码的实做库：libvpx，以BSD授权条款的方式发布，随后也附加了专利使用权[4][5][6]。而在经过一些争论之后，最终VP8的授权确认为一个开放源代码授权。目前支持VP8的网页浏览器有Opera、Firefox和Chrome。</p>
                 </article>
                 <article>
@@ -173,6 +174,47 @@ git commit -m "Add a new file -- readme.txt"
                         <li>40 Mbit/s（最高）– 蓝光光盘（Blu-ray Disc）质量（使用MPEG2、H.264或VC-1压缩）</li>
                         <li>440或880 Mbit/s – Sony HDCAM SR质量（SQ/HQ）</li>
                     </ul>
+                </article>
+                <article>
+                    <h3 id="idCmd" class="page-header">常用命令</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>命令</th>
+                                <th>说明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>git init</td>
+                                <td>在当前目录（工作区）创建版本库</td>
+                            </tr>
+                            <tr>
+                                <td>git add <i>file name</i></td>
+                                <td>将文件添加到版本库的暂存区</td>
+                            </tr>
+                            <tr>
+                                <td>git commit -m <i>note text</i></td>
+                                <td>将文件提交到到版本库</td>
+                            </tr>
+                            <tr>
+                                <td>git status</td>
+                                <td>查看版本库的状态</td>
+                            </tr>
+                            <tr>
+                                <td>git log</td>
+                                <td>查看提交历史。<code>git log --pretty=onelien</code>显示单行文本</td>
+                            </tr>
+                            <tr>
+                                <td>git reset --hard HEAD^</td>
+                                <td>将文件回滚到前一个状态</td>
+                            </tr>
+                            <tr>
+                                <td>git reset --hard <i>commit id</i></td>
+                                <td>将文件回滚到commit id的状态</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </article>
             </div>
             <div class="col-md-3" id="navSilderSpy">
