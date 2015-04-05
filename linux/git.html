@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Git——李志新的博客</title>
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+      <script src="../js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body  data-spy="scroll" data-target="#navSilderSpy">
+    <nav class="navbar navbar-default navbar-static-top " >
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">李志新的博客</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li ><a href="../index.html">主页 <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HTML5<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../html/html.html">HTML5</a></li>
+                <li><a href="../html/css.html">CSS</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">多媒体<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../multimedia/video.html">视频基础</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">操作系统<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../system/shell.html">Shell&Script</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">网路技术<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../net/wlan.html">WLAN</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Linux<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="git.html">Git</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+       
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div  class="col-md-9">
+                <article>
+                    <h3 id="idBrief" class="page-header">Git Brief</h3>
+                    <p>Git是目前世界上最好的分布式版本管理系统，是由Linus设计开发，最初用于Linux源代码的版本控制。</p>
+
+                </article>
+                <article>
+                    <h3 id="idInstall" class="page-header">Git安装</h3>
+                    <p>最初Git是基于Linux系统开发的，只能工作在Unix/Linux系统下，后来有了Windows版本。现在Git可以很好的工作在各个系统中，无论是Unix、Linux、Mac或者Windows。</p>
+                    <h4>Linux下安装Git</h4>
+                    <p><pre>
+sudo apt-get install git
+</pre>
+                    对于较老的Linux系统，要使用<pre>
+sudo apt-get install git-core
+</pre>   
+                    </p>
+                    <h4>Windows下安装Git</h4>
+                    <p>Windows下要使用很多Linux/Unix的工具时，需要Cygwin这样的模拟环境，Git也一样。Cygwin的安装和配置都比较复杂，就不建议你折腾了。不过，有高人已经把模拟环境和Git都打包好了，名叫msysgit，只需要下载一个单独的exe安装程序，其他什么也不用装，绝对好用。</p>
+                    <p>msysgit是Windows版的Git，从<a href="http://msysgit.github.io/" title="msysgit">http://msysgit.github.io/</a>下载，然后按默认选项安装即可。</p>
+                </article>
+                <article>
+                    <h3 id="idRepository" class="page-header">创建版本库</h3>
+                    <p>版本库，也叫仓库，英文是<em>Repository</em>。版本库是工作区内的一个隐藏的目录--<b>.git</b>，这个目录管理着工作区里的所有文件，每个文件的创建、修改、删除，它都可以跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。</p>
+                    <p>创建版本库的步骤如下：</p>
+                    <dl class="dl-horizontal">
+                        <dt>创建工作区</dt>
+                        <dd>创建版本库非常简单，首先再合适的位置创建一个空目录（当然也可以使用现有的目录）<pre>
+mkdir gitTest
+cd gitTest
+pwd
+</pre></dd> 
+                        <dt>创建版本库</dt>
+                        <dd>在当前目录下输入<kbd>git init</kbd>，创建版本库，管理当前的工作区（即当前的目录）。<pre>
+$ git init
+Initialized empty Git repository in /Users/michael/learngit/.git/
+</pre>瞬间版本库就建好了，而且告诉你这是一个空的版本库（empty Git repository）。在当前的目录下多了一个目录<b>.git</b>，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了。</dd>
+                        <dt>将文件添加到仓库</dt>
+                        <dd>使用<kbd>git add <em>file name</em></kbd>可以将文件添加到仓库的暂存区，然后使用<kbd>git commit -m "<i>some commit text...</i>"</kbd>命令将跟踪的文件更新到版本库中。<pre>
+vi readme.txt
+git add readme.txt
+git commit -m "Add a new file -- readme.txt"
+</pre>                        
+                        </dd>
+                    </dl>
+                    <p><strong>Theora</strong>是一个免权利金、开放格式的有损视频压缩技术，由Xiph.Org基金会开发，该基金会还开发了著名的声音编码技术Vorbis，以及多媒体容器文件格式Ogg。libtheora则是Xiph.Org基金会针对Theora格式的实现。Theora是由On2 Technologies公司专属的VP3编码器，经过开放源代码后派生而来，目标是达成比MPEG-4 Part 2更好的编码效率。</p>
+                    <p><strong>VP8</strong>是一个开放的视频压缩格式，最早由On2 Technologies开发，随后由Google发布。同时Google也发布了VP8编码的实做库：libvpx，以BSD授权条款的方式发布，随后也附加了专利使用权[4][5][6]。而在经过一些争论之后，最终VP8的授权确认为一个开放源代码授权。目前支持VP8的网页浏览器有Opera、Firefox和Chrome。</p>
+                </article>
+                <article>
+                    <h3 id="bitRate"  class="page-header">码率</h3>
+                    <p><strong>码率</strong>在数字多媒体领域，是单位时间播放连续的媒体如压缩后的音频或视频的比特数量</p>
+                    <h4>常见视频的码率</h4>
+                    <ul>
+                        <li>128 – 384 kbit/s—商业导向的视频会议系统质量</li>
+                        <li>1 Mbit/s—VHS质量</li>
+                        <li>1.25 Mbit/s – VCD质量（使用MPEG1压缩）</li>
+                        <li>5 Mbit/s—DVD质量（使用MPEG2压缩）</li>
+                        <li>8 – 15 Mbit/s—高清晰度电视（HDTV）质量（使用H.264压缩）</li>
+                        <li>29.4 Mbit/s（最高）– HD DVD质量</li>
+                        <li>40 Mbit/s（最高）– 蓝光光盘（Blu-ray Disc）质量（使用MPEG2、H.264或VC-1压缩）</li>
+                        <li>440或880 Mbit/s – Sony HDCAM SR质量（SQ/HQ）</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-md-3" id="navSilderSpy">
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix" >
+                    <li role="presentation" class="active"><a href="#idBrief">Git Brief</a></li>
+                    <li role="presentation"><a href="#idInstall">Git安装</a></li>
+                    <li role="presentation"><a href="#idRepository">创建版本库</a></li>
+                    <li role="presentation"><a href="#bitRate">码率</a></li>
+                    <li role="presentation"><a href="#">返回</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">李志新@2015-2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
