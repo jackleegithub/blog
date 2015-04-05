@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>主页——CSS教程</title>
+    <style>
+      
+    </style>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+      <script src="../js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top " >
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">李志新的博客</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">主页 <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HTML5<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="multimedia/video.html">视频基础</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">多媒体<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="video.html">视频基础</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+       
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <article>
+                    <h2 id="brief">简介</h2>
+                    <hr />
+                    <p><strong>影片</strong>（英语：Video），又称视像、视讯、视频、录影、录像、动态视频、影音，泛指将一系列的静态视频以电信号方式加以捕捉、纪录、处理、存储、发送与重现的各种技术。视频技术最早是从阴极射线管的电视系统的创建而发展起来的，但是之后新的显示技术的发明，使视频技术所包括的范畴更大。基于电视的标准和基于电脑的标准，被试图从两个不同的方面来发展视频技术。现在得益于计算机性能的提升，并且伴随着数字电视的播出和记录，这两个领域又有了新的交叉和集中。</p>
+                </article>
+                <article>
+                    <h2 id="encapsulation">封装格式</h2><hr />
+                    <p>封装格式（也叫容器），就是将已经编码压缩好的视频轨和音频轨按照一定的格式放到一个文件中，也就是说仅仅是一个外壳，或者大家把它当成一个放视频轨和音频轨的文件夹也可以。说得通俗点，视频轨相当于饭，而音频轨相当于菜，封装格式就是一个碗，或者一个锅，用来盛放饭菜的容器。</p>
+                    <h3>常见的封装格式</h3>
+                    <ul>
+                        <li><em>AVI</em>：微软在90年代初创立的封装标准，是当时为对抗quicktime格式（mov）而推出的，只能支持固定CBR恒定比特率编码的声音文件。</li>
+                        <li><em>FLV</em>：针对于h.263家族的格式。</li>
+                        <li><em>MKV</em>：万能封装器，有良好的兼容和跨平台性、纠错性，可带 外挂字幕。</li>
+                        <li><em>MOV</em>：MOV是Quicktime封装。</li>
+                        <li><em>MP4</em>：主要应用于mpeg4的封装 。</li>
+                        <li><em>RM/RMVB</em>：Real Video，由RealNetworks开发的应用于rmvb和rm 。</li>
+                        <li><em>TS/PS</em>：PS封装只能在HDDVD原版。</li>
+                        <li><em>WMV</em>：微软推出的，作为市场竞争。</li>
+                    </ul>
+                    <h3>封装格式与编码方式的对应</h3>
+                    <ul>
+                        <li><em>AVI</em>：可用MPEG-2, DIVX, XVID, WMV3, WMV4, WMV9, H.264</li>
+                        <li><em>WMV</em>：可用WMV3, WMV4, WMV9</li>
+                        <li><em>RM/RMVB</em>：可用RV40, RV50, RV60, RM8, RM9, RM10</li>
+                        <li><em>MOV</em>：可用MPEG-2, MPEG4-ASP(XVID), H.264</li>
+                        <li><em>MKV</em>：可用所有视频编码方案</li>
+                    </ul>
+                </article>
+                <article>
+                    <h2 id="encode">编码格式</h2><hr />
+                    <p>所谓视频编码方式就是指通过特定的压缩技术，将某个视频格式的文件转换成另一种视频格式文件的方式。视频流传输中最为重要的编解码标准有国际电联的H.261、H.263、H.264，运动静止图像专家组的M-JPEG和国际标准化组织运动图像专家组的MPEG系列标准，此外在互联网上被广泛应用的还有Real-Networks的RealVideo、微软公司的WMV以及Apple公司的QuickTime等。</p>
+                </article>
+            </div>
+            <div class="col-md-2" id="nav-slider">
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix">
+                    <li role="presentation" class="active"><a href="#brief">简介</a></li>
+                    <li role="presentation"><a  href="#encapsulation">封装格式</a></li>
+                    <li role="presentation"><a href="#encode">编码格式</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
